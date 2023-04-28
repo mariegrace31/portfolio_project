@@ -19,13 +19,14 @@ nav {
   background: url(images/header-shapes\ mobile@2x.svg);
   display: flex;
   padding: 90px 18px;
+  background-repeat: no-repeat;
 }
 
 .logo {
   color: #6070ff;
 }
 
-.nav-icon {
+.fa-bars {
   color: #6070ff;
 }
 
