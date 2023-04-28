@@ -1,72 +1,70 @@
-*{
-    font-family: Poppins;
+* {
+ font-family: Poppins; 
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
-.content{
-    background-image: url(images/background.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-.nav-bar{
-    display:flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    align-items: center;
-    padding-top: 20px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
 }
 
-.nav-icon{
-    color: #6070FF;
-    margin-right: 30px;
-    font-size: 26px;
+.nav-links {
+  display: none;
 }
 
-.nav-links{
-    display: none;
+.main {
+  background: url(images/header-shapes\ mobile@2x.svg);
+  display: flex;
+  padding: 90px 18px;
 }
-.nav-links li {
-    list-style: none;
+
+.logo {
+  color: #6070FF;
 }
-.logo{
-    color:#6070FF;
-    margin: 40px;
-    font-size: 22px;
+
+.nav-icon {
+  color: #6070FF;
 }
+
 h1{
-    color: #172B4D;
-    font-size: 70px;
-    width: 100%;
+  color: #172B4D;
+  font-size: 35px;
+  margin: 9px;
 }
+
 .presentation{
-    color: #344563;
-    font-size: 30px;
+  color: #344563;
+  font-size: 20px;
+  margin: 9px;
 }
+
 .connect{
-    color: #7F8CFF;
-    font-size: 30px;
+  color: #7F8CFF;
+  font-size: 16px;
+  margin: 9px;
 }
-.icons{
-    
+
+.icons {
+  display: flex;
+  margin: 9px;
 }
-.icons ul{
-    display: inline-flex;
-    justify-content: space-between;
-    list-style: none;
-    color: #505F79;
+
+.icons ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
-.icons ul li {
-    margin: 20px 20px;
+
+.icons ul li a {
+  color: #505F79;
 }
-@media(min-width:375px){
-body{
-    width:50%;
+
+.logo :hover {
+  text-decoration: underline;
 }
-.content{
-    left: 20%;
-}
-h1{
-    font-size: 50px;
-}
+
+.icons ul li a :hover {
+  color: #7F8CFF;
 }
