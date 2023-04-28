@@ -1,0 +1,73 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav-links {
+  display: none;
+}
+
+.main {
+  background: url(images/header-shapes\ mobile@2x.svg);
+  display: flex;
+  padding: 90px 18px;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.fa-bars {
+  color: #6070ff;
+}
+
+h1 {
+  color: #172b4d;
+  font-size: 35px;
+  margin: 9px;
+}
+
+.presentation {
+  color: #344563;
+  font-size: 20px;
+  margin: 9px;
+}
+
+.connect {
+  color: #7f8cff;
+  font-size: 16px;
+  margin: 9px;
+}
+
+.icons {
+  display: flex;
+  margin: 9px;
+}
+
+.icons ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.icons ul li a {
+  color: #505f79;
+}
+
+.logo :hover {
+  text-decoration: underline;
+}
+
+.icons ul li a :hover {
+  color: #7f8cff;
+}
