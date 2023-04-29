@@ -160,11 +160,11 @@ hr {
   color: #dfe1e6;
 }
 
-.button :hover {
+.button:hover {
   background-color: #6070ff;
   color: #172b4d;
 }
 
-.lang :hover {
+.lang:hover {
   color: #172b4d;
 }
