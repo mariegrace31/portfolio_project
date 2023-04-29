@@ -39,7 +39,7 @@ h1 {
 
 .presentation {
   color: #344563;
-  font-size: 20px;
+  font-size: 25px;
   margin: 9px;
 }
 
@@ -70,4 +70,101 @@ h1 {
 
 .icons ul li a :hover {
   color: #7f8cff;
+}
+
+.works {
+  padding: 90px 18px;
+  display: grid;
+  gap:15px;
+}
+
+.title {
+  color: #172b4d;
+  font-size: 35px;
+}
+
+.photo {
+  width: 100%;
+}
+
+.canopy {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.can {
+  list-style: none;
+  color: #344563;
+}
+
+.dev {
+  color: #c1c7d0;
+}
+
+.languages ul {
+  list-style: none;
+  display: flex;
+  color: #6070ff;
+}
+
+.languages ul li {
+  margin: 18px ;
+}
+
+.lang {
+  background: #EBEBFF;
+  border-radius: 8px;
+  padding: 4px 12px
+}
+
+.button {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: #396df2;
+  font-size: 18px;
+}
+
+.about {
+  padding: 90px 18px;
+  display: flex;
+}
+
+.js {
+  display: flex;
+  gap: 20px;
+  border-radius: 8px;
+  background-color: #f7f7f9;
+  margin: 20px;
+  padding: 10px;
+  color: #253858;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  font-size: 25px;
+  margin: 15px 20px;
+}
+
+.langs {
+  padding: 90px 18px;
+}
+
+hr {
+  color: #dfe1e6;
+}
+
+.button :hover {
+  background-color: #6070ff;
+  color: #172b4d;
+}
+
+.lang :hover {
+  color: #172b4d;
 }
