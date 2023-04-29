@@ -41,17 +41,20 @@ h1 {
   color: #344563;
   font-size: 25px;
   margin: 9px;
+  padding: 15px;
 }
 
 .connect {
   color: #7f8cff;
   font-size: 16px;
   margin: 9px;
+  padding: 10px;
 }
 
 .icons {
   display: flex;
   margin: 9px;
+  padding: 12px;
 }
 
 .icons ul {
@@ -73,9 +76,13 @@ h1 {
 }
 
 .works {
-  padding: 90px 18px;
+  padding: 25px 18px;
   display: grid;
   gap: 15px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 25px;
+  align-items: center;
 }
 
 .title {
@@ -115,7 +122,6 @@ h1 {
 .lang {
   background: #ebebff;
   border-radius: 8px;
-  padding: 4px 12px;
 }
 
 .button {
@@ -153,7 +159,7 @@ h1 {
 }
 
 .langs {
-  padding: 90px 18px;
+  padding: 4px 10px;
 }
 
 hr {
