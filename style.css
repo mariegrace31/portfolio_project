@@ -75,7 +75,7 @@ h1 {
 .works {
   padding: 90px 18px;
   display: grid;
-  gap:15px;
+  gap: 15px;
 }
 
 .title {
@@ -109,13 +109,13 @@ h1 {
 }
 
 .languages ul li {
-  margin: 18px ;
+  margin: 18px;
 }
 
 .lang {
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
-  padding: 4px 12px
+  padding: 4px 12px;
 }
 
 .button {
