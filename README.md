@@ -39,7 +39,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need: to dowload it or clone it to your machine.
 ### Setup
-Clone this repository to your desired folder: cd my-folder git clone git@github.com:myaccount/my-project.git
+Clone this repository to your desired folder: https://github.com/mariegrace31/portfolio_project.git
 ### Install
 Install this project with: cd my-project npm install
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

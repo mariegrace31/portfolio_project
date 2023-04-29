@@ -39,19 +39,22 @@ h1 {
 
 .presentation {
   color: #344563;
-  font-size: 20px;
+  font-size: 25px;
   margin: 9px;
+  padding: 15px;
 }
 
 .connect {
   color: #7f8cff;
   font-size: 16px;
   margin: 9px;
+  padding: 10px;
 }
 
 .icons {
   display: flex;
   margin: 9px;
+  padding: 12px;
 }
 
 .icons ul {
@@ -70,4 +73,104 @@ h1 {
 
 .icons ul li a :hover {
   color: #7f8cff;
+}
+
+.works {
+  padding: 25px 18px;
+  display: grid;
+  gap: 15px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 25px;
+  align-items: center;
+}
+
+.title {
+  color: #172b4d;
+  font-size: 35px;
+}
+
+.photo {
+  width: 100%;
+}
+
+.canopy {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.can {
+  list-style: none;
+  color: #344563;
+}
+
+.dev {
+  color: #c1c7d0;
+}
+
+.languages ul {
+  list-style: none;
+  display: flex;
+  color: #6070ff;
+}
+
+.languages ul li {
+  margin: 18px;
+}
+
+.lang {
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.button {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: #396df2;
+  font-size: 18px;
+}
+
+.about {
+  padding: 90px 18px;
+  display: flex;
+}
+
+.js {
+  display: flex;
+  gap: 20px;
+  border-radius: 8px;
+  background-color: #f7f7f9;
+  margin: 20px;
+  padding: 10px;
+  color: #253858;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  font-size: 25px;
+  margin: 15px 20px;
+}
+
+.langs {
+  padding: 4px 10px;
+}
+
+hr {
+  color: #dfe1e6;
+}
+
+.button:hover {
+  background-color: #6070ff;
+  color: #172b4d;
+}
+
+.lang:hover {
+  color: #172b4d;
 }
