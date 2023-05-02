@@ -174,3 +174,14 @@ hr {
 .lang:hover {
   color: #172b4d;
 }
+
+.contact {
+  background-image: url(images/contact\ form\ background.png);
+  background-repeat: no-repeat;
+}
+
+.contact-text {
+  Width: 327px;
+  Height: 137px;
+  Top: 4802px;
+}
