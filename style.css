@@ -177,11 +177,78 @@ hr {
 
 .contact {
   background-image: url(images/contact\ form\ background.png);
+  background-size: cover;
   background-repeat: no-repeat;
+  background-color: #6070ff;
+  border-radius: 15% 0% 0% 0%;
+  margin-top: 250px;
 }
 
 .contact-text {
-  Width: 327px;
-  Height: 137px;
-  Top: 4802px;
+  color: #252527;
+  margin: 30px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.contact-head {
+  color: #ebebff;
+  padding-top: 40px;
+}
+
+.form {
+  margin: 15px;
+  padding: 20px;
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  background-color: #ffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 8px 5px;
+  color: #172b4d;
+  width: 80%;
+}
+
+textarea {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  color: #b3bac5;
+  width: 80%;
+  height: 120px;
+  margin: 5px;
+  padding-top: 3px;
+  padding-left: 12px;
+}
+
+.btn {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 15px;
+  width: 160px;
+  text-align: center;
+  color: #396df2;
+  font-size: 18px;
+  align-self:normal;
+  margin: 15px 50px 15px 50px;
+}
+
+.btn:hover {
+  color: #252527;
+  border: 1px solid #252527;
+}
+
+textarea:hover {
+  border: 1px solid #252527;
+}
+
+input:hover {
+  border: 1px solid #253858;
 }

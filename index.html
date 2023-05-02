@@ -221,46 +221,22 @@
     </section>
     <section class="contact">
       <div class="contact-text">
-        <h1>Contact me</h1>
+        <h1 class="contact-head">Contact me</h1>
         <p>
           If you have an application you are interested in developing, a feature
           that you need built or a project that needs coding. I'd love to help
           with it!
         </p>
       </div>
-
-      <form action="" method="post" class="form-full">
-        <div class="info">
+      <form class="form" method="post" action="">
+         <div class="form-info">
           <label for="fullname"> </label>
-          <input
-            type="text"
-            name="fullname"
-            class="fullname"
-            placeholder="lorem ipsum"
-            required
-            maxlength="30"
-          />
+          <input type="text" name="fullname" class="fullname" placeholder="lorem ipsum" maxlength="30" required/>
           <label for="email"></label>
-          <input
-            type="email"
-            class="email"
-            placeholder="loremipsum@gmail.com"
-          />
-        </div>
-
-        <div class="message">
-          <label for="message"> </label>
-          <input
-            type="text"
-            class="message"
-            name="message"
-            placeholder="write your message here..."
-            maxlength="500"
-          />
-        </div>
-        <div>
-          <button type="submit" class="btn-submit">Get in touch</button>
-        </div>
+          <input type="email" id="email" placeholder="loremipsum@gmail.com" required/>
+          <textarea name="message" placeholder="Write your message here..." maxlength="500" required></textarea>
+          <button type="submit" class="btn">Get in touch</button>
+         </div>
       </form>
     </section>
   </body>
