@@ -10,7 +10,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -52,15 +51,9 @@ Install this project with: cd my-project npm install
 - GitHub: [@mariegrace31](https://github.com/mariegrace31)
 - Twitter: [@mariegracebmg](https://twitter.com/mariegracebmg)
 - LinkedIn: [Marie Grace Bahati](https://linkedin.com/in/marie-gr%C3%A2ce-bahati-546765224)
+👤 **Author2**
+- Github: [@tusinahmed] (https://github.com/tusinahmed)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-- [feature_1]: Add another section to the portfolio
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
