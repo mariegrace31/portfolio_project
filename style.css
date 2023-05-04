@@ -117,6 +117,7 @@ h1 {
 
 .languages ul li {
   margin: 18px;
+  padding: 8px;
 }
 
 .lang {
@@ -253,4 +254,95 @@ textarea:hover {
 
 input:hover {
   border: 1px solid #253858;
+}
+
+@media screen and (min-width:768px){
+  .main {
+    background:url(images/Header\ bg.svg);
+    background-repeat: no-repeat;
+    padding: 180px 150px;
+    background-color: #fff;
+    border-bottom-left-radius: 100px;
+}
+
+header {
+  padding: 200px 10px 50px 10px;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 190px 40px 90px;
+  background-color: #fff;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.nav-links ul li a {
+  color: #344563;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.logo{
+  font-size: 18px;
+}
+.fa-bars {
+  visibility: hidden;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+.presentation {
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+.connect {
+  font-size: 16px;
+  padding-left: 0px;
+}
+
+.icons ul li a {
+  font-size: 20px;
+}
+
+.icons {
+  margin-left: 0px;
+  padding: 12px;
+}
+
+.content {
+  width: 85%;
+}
+
+.works {
+  background-color: #fff;
+  display: flex;
+  width: 60%;
+}
+
+.body {
+  margin-left: 150px;
+  width: 100%;
+}
+
+.photo {
+  width: 50%;
+  height: 100%;
+}
 }
