@@ -259,7 +259,7 @@ input:hover {
 
 @media screen and (min-width:768px){
   .main {
-    background:url(images/Header\ bg.svg);
+    background: url(images/Header\ bg.svg);
     background-repeat: no-repeat;
     padding: 180px 150px;
     background-color: #fff;
@@ -300,6 +300,7 @@ nav {
 .logo{
   font-size: 18px;
 }
+
 .fa-bars {
   visibility: hidden;
 }
@@ -402,7 +403,7 @@ h1 {
   margin-left: 40px;
 }
 
-.btn  {
+.btn {
   margin-left: 180px;
 }
 
