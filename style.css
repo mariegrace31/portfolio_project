@@ -113,6 +113,7 @@ h1 {
   list-style: none;
   display: flex;
   color: #6070ff;
+  margin-left: -15px;
 }
 
 .languages ul li {
@@ -333,16 +334,79 @@ h1 {
 .works {
   background-color: #fff;
   display: flex;
-  width: 60%;
+  width: 70%;
+  margin-bottom: 100px;
 }
 
 .body {
-  margin-left: 150px;
+  margin-left: 250px;
   width: 100%;
 }
 
 .photo {
-  width: 50%;
-  height: 100%;
+  width: 544px;
+  height: 448px;
+}
+
+.contentAndLangs {
+  background-color: #fff;
+  border-top-right-radius: 90px;
+  display: flex;
+  height: 900px;
+}
+
+#content2 {
+  width: 590px;
+}
+
+.langs {
+  width: 700px;
+  height: 170px;
+  margin-top: 90px;
+  margin-left: 70px;
+}
+
+.js {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100px;
+  flex-wrap: nowrap;
+  margin: 3px;
+}
+
+.langs {
+  padding: 80px 70px;
+}
+
+.contact {
+  background-image: url(images/contact\ form\ background\ shapes.svg);
+  background-repeat: no-repeat;
+  padding: 140px 120px;
+  background-color: #6070ff;
+  border-top-left-radius: 120px;
+  display: grid;
+  padding-left: 350px;
+  margin-top: -110px;
+}
+
+.contact-text {
+  width: 60%;
+}
+
+.form {
+  width: 60%;
+  margin-left: 40px;
+}
+
+.btn  {
+  margin-left: 180px;
+}
+
+input {
+  border-radius: 0px;
+}
+
+textarea {
+  border-radius: 0px;
 }
 }
