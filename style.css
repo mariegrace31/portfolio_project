@@ -261,13 +261,8 @@ input:hover {
   .main {
     background: url(images/Header\ bg.svg);
     background-repeat: no-repeat;
-    padding: 180px 150px;
     background-color: #fff;
     border-bottom-left-radius: 100px;
-  }
-
-  header {
-    padding: 200px 10px 50px 10px;
   }
 
   body {
@@ -312,6 +307,13 @@ input:hover {
   .presentation {
     font-size: 20px;
     padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .lang {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .connect {
@@ -337,6 +339,12 @@ input:hover {
     display: flex;
     width: 70%;
     margin-bottom: 100px;
+    margin-top: 100px;
+    height: 410px;
+  }
+
+  .part {
+    height: 350px;
   }
 
   #section2,
@@ -350,8 +358,8 @@ input:hover {
   }
 
   .photo {
-    width: 544px;
-    height: 448px;
+    width: 380px;
+    height: 370px;
   }
 
   .contentAndLangs {
