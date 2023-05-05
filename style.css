@@ -366,8 +366,8 @@ h1 {
 .langs {
   width: 700px;
   height: 170px;
-  margin-top: 90px;
-  margin-left: 70px;
+  margin-top: -5px;
+  margin-left: 10px;
 }
 
 .js {
@@ -412,5 +412,9 @@ input {
 
 textarea {
   border-radius: 0px;
+}
+
+.lang-nav ul li{
+  margin: 30px;
 }
 }
