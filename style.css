@@ -338,6 +338,10 @@ h1 {
   margin-bottom: 100px;
 }
 
+#section2, #section4 {
+  flex-direction: row-reverse;
+}
+
 .body {
   margin-left: 250px;
   width: 100%;
