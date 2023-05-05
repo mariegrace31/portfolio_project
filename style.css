@@ -259,11 +259,11 @@ input:hover {
 
 @media screen and (min-width: 768px) {
   .main {
-      background: url(images/Header\ bg.svg);
-      background-repeat: no-repeat;
-      padding: 180px 150px;
-      background-color: #fff;
-      border-bottom-left-radius: 100px;
+    background: url(images/Header\ bg.svg);
+    background-repeat: no-repeat;
+    padding: 180px 150px;
+    background-color: #fff;
+    border-bottom-left-radius: 100px;
   }
 
   header {
@@ -311,12 +311,12 @@ input:hover {
 
   .presentation {
     font-size: 20px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .connect {
     font-size: 16px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .icons ul li a {
@@ -324,7 +324,7 @@ input:hover {
   }
 
   .icons {
-    margin-left: 0px;
+    margin-left: 0;
     padding: 12px;
   }
 
@@ -339,7 +339,8 @@ input:hover {
     margin-bottom: 100px;
   }
 
-  #section2, #section4 {
+  #section2,
+  #section4 {
     flex-direction: row-reverse;
   }
 
@@ -390,7 +391,7 @@ input:hover {
     padding-left: 350px;
     margin-top: -110px;
   }
-  
+
  .contact-text {
     width: 60%;
   }
@@ -405,14 +406,14 @@ input:hover {
   }
 
   input {
-    border-radius: 0px;
+    border-radius: 0;
   }
 
   textarea {
-    border-radius: 0px;
+    border-radius: 0;
   }
 
-  .lang-nav ul li{
+  .lang-nav ul li {
     margin: 30px;
   }
 }
