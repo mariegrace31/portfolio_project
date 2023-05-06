@@ -242,6 +242,7 @@ textarea {
 .btn {
   border: 1px solid #6070ff;
   border-radius: 8px;
+  background-color: #fff;
   padding: 15px;
   width: 160px;
   text-align: center;
@@ -254,7 +255,6 @@ textarea {
 .btn:hover {
   color: #fff;
   background-color: #6070ff;
-  border: 1px solid #fff;
 }
 
 textarea:hover {
@@ -354,10 +354,6 @@ input:hover {
     padding: 12px;
   }
 
-  #content2 {
-    width: 85%;
-  }
-
   .works1,
   .works2,
   .works3,
@@ -414,25 +410,42 @@ input:hover {
     border-top-right-radius: 100px;
     width: 100%;
     display: flex;
-    gap: 20px;
-    padding: 0 70px ;
+    gap: 10px;
+    padding: 0 90px ;
     height: 700px;
   }
 
   .content2 {
     width: 50%;
     margin-left: 100px;
+    line-height: 24px;
   }
   .langs {
-    width: 50%;
+    width: 550px;
+    margin-top: -12px;
+    margin-left: 0;
+    padding: 80px 70px;
   }
 
+  .presentation2 {
+    font-size: 16px;
+  }
+
+  .lang-nav ul li {
+    margin: 20px;
+  }
+
+  .lang-nav ul {
+    margin-left: -400px;
+  }
+  
   .js {
     display: inline-flex;
     flex-direction: column;
+    width: 100px;
     flex-wrap: nowrap;
-    margin: 3px;
-  }
+    margin: 4px;
+    }
 
   .contact {
     background-image: url(images/contact\ form\ background\ shapes.svg);
@@ -448,18 +461,18 @@ input:hover {
   .contact-text {
     display: flex;
     flex-direction: column;
-    margin: 20px 200px;
-    width: 60%;
-    align-items: center;
+    margin: 15px 400px;
+    width: 40%;
+    text-align: center;
   }
 
   .form {
-    width: 60%;
     margin-left: 40px;
   }
 
   .btn {
     margin-left: 150px;
+    background-color: #fff;
   }
 
   input {
@@ -470,13 +483,4 @@ input:hover {
   textarea {
     border-radius: 0;
   }
-
-  .lang-nav ul li {
-    margin: 20px;
-  }
-
-  .lang-nav ul {
-    margin:70px;
-  }
-
 }
