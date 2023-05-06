@@ -37,7 +37,8 @@ h1 {
   margin: 9px;
 }
 
-.presentation {
+.presentation,
+.presentation2 {
   color: #344563;
   font-size: 25px;
   margin: 9px;
@@ -75,7 +76,10 @@ h1 {
   color: #7f8cff;
 }
 
-.works {
+.works1,
+.works2,
+.works3,
+.works4 {
   padding: 25px 18px;
   display: grid;
   gap: 15px;
@@ -90,7 +94,10 @@ h1 {
   font-size: 35px;
 }
 
-.photo {
+.photo1,
+.photo2,
+.photo3,
+.photo4 {
   width: 100%;
 }
 
@@ -113,10 +120,12 @@ h1 {
   list-style: none;
   display: flex;
   color: #6070ff;
+  margin-left: -15px;
 }
 
 .languages ul li {
   margin: 18px;
+  padding: 8px;
 }
 
 .lang {
@@ -132,6 +141,7 @@ h1 {
   text-align: center;
   color: #396df2;
   font-size: 18px;
+  background-color: #fff;
 }
 
 .about {
@@ -167,9 +177,9 @@ hr {
 }
 
 .button:hover {
-  background-color: #6070ff;
+  cursor: pointer;
   color: #fff;
-  border: 1px solid #fff;
+  background-color: #396df2;
 }
 
 .lang:hover {
@@ -232,6 +242,7 @@ textarea {
 .btn {
   border: 1px solid #6070ff;
   border-radius: 8px;
+  background-color: #fff;
   padding: 15px;
   width: 160px;
   text-align: center;
@@ -244,7 +255,6 @@ textarea {
 .btn:hover {
   color: #fff;
   background-color: #6070ff;
-  border: 1px solid #fff;
 }
 
 textarea:hover {
@@ -253,4 +263,225 @@ textarea:hover {
 
 input:hover {
   border: 1px solid #253858;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    background: url(images/Header\ bg.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-bottom-left-radius: 150px;
+    width: 1440px;
+  }
+
+  body {
+    background-color: #f7f7f9;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 190px 50px 90px;
+    background-color: #fff;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+  }
+
+  .nav-links ul li a {
+    color: #344563;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .logo {
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .fa-bars {
+    visibility: hidden;
+  }
+
+  .presentation,
+  .presentation2 {
+    font-size: 18px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    height: 480px;
+    margin: 120px 0 10px 300px;
+  }
+
+  .lang {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .connect {
+    font-size: 16px;
+    padding-left: 0;
+  }
+
+  .icons ul li a {
+    font-size: 20px;
+  }
+
+  .icons {
+    margin-left: 0;
+    margin-top: -19px;
+    padding: 12px;
+  }
+
+  .works1,
+  .works2,
+  .works3,
+  .works4 {
+    height: 496px;
+    display: flex;
+    width: 1050px;
+    border-radius: 26px;
+    gap: 20px;
+    padding: 0 40px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .body {
+    margin: 60px;
+    display: grid;
+    gap: 40px;
+  }
+
+  .part1,
+  .part2,
+  .part3,
+  .part4 {
+    margin-top: -100px;
+  }
+
+  .button {
+    padding: 13px;
+    width: 171px;
+  }
+
+  .button:hover {
+    background-color: #6070ff;
+  }
+
+  .photo1,
+  .photo3 {
+    width: 544px;
+    height: 448px;
+  }
+
+  .photo2,
+  .photo4 {
+    width: 544px;
+    height: 448px;
+    order: 1;
+  }
+
+  .About {
+    background-color: #fff;
+    border-top-right-radius: 100px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 0 90px;
+    height: 700px;
+  }
+
+  .content2 {
+    width: 50%;
+    margin-left: 100px;
+    line-height: 24px;
+  }
+
+  .langs {
+    width: 550px;
+    margin-top: -12px;
+    margin-left: 0;
+    padding: 80px 70px;
+  }
+
+  .presentation2 {
+    font-size: 16px;
+  }
+
+  .lang-nav ul li {
+    margin: 20px;
+  }
+
+  .lang-nav ul {
+    margin-left: -400px;
+  }
+
+  .js {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100px;
+    flex-wrap: nowrap;
+    margin: 4px;
+  }
+
+  .contact {
+    background-image: url(images/contact\ form\ background\ shapes.svg);
+    background-repeat: no-repeat;
+    background-color: #6070ff;
+    border-top-left-radius: 120px;
+    display: grid;
+    align-items: center;
+    margin-top: -100px;
+    height: 800px;
+  }
+
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 400px;
+    width: 40%;
+    text-align: center;
+  }
+
+  .form {
+    margin-left: 40px;
+  }
+
+  .btn {
+    margin-left: 150px;
+    background-color: #fff;
+  }
+
+  input {
+    border-radius: 0;
+    color: #172b4d;
+  }
+
+  textarea {
+    border-radius: 0;
+  }
 }
