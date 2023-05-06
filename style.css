@@ -485,19 +485,19 @@ input:hover {
   textarea {
     border-radius: 0;
   }
-}
 
-/* Animations */
+  /* Animations */
 
-.animate:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s ease-out;
-}
+  .animate:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-out;
+  }
 
-input::placeholder {
-  transition: transform 0.2s ease-out;
-}
+  input::placeholder {
+    transition: transform 0.2s ease-out;
+  }
 
-input:hover::placeholder {
+  input:hover::placeholder {
   transform: translateX(10px);
+  }
 }
