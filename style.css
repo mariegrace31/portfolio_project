@@ -498,6 +498,6 @@ input:hover {
   }
 
   input:hover::placeholder {
-     transform: translateX(10px);
+    transform: translateX(10px);
   }
 }
