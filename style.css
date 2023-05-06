@@ -270,7 +270,7 @@ input:hover {
     margin: 0;
     padding: 0;
   }
-  
+
   .main {
     background: url(images/Header\ bg.svg);
     background-repeat: no-repeat;
@@ -411,7 +411,7 @@ input:hover {
     width: 100%;
     display: flex;
     gap: 10px;
-    padding: 0 90px ;
+    padding: 0 90px;
     height: 700px;
   }
 
@@ -420,6 +420,7 @@ input:hover {
     margin-left: 100px;
     line-height: 24px;
   }
+  
   .langs {
     width: 550px;
     margin-top: -12px;
@@ -438,14 +439,14 @@ input:hover {
   .lang-nav ul {
     margin-left: -400px;
   }
-  
+
   .js {
     display: inline-flex;
     flex-direction: column;
     width: 100px;
     flex-wrap: nowrap;
     margin: 4px;
-    }
+  }
 
   .contact {
     background-image: url(images/contact\ form\ background\ shapes.svg);
