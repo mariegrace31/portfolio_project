@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -487,3 +488,16 @@ input:hover {
 }
 
 /* Animations */
+
+.animate:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-out;
+}
+
+input::placeholder {
+  transition: transform 0.2s ease-out;
+}
+
+input:hover::placeholder {
+  transform: translateX(10px);
+}
