@@ -10,6 +10,8 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
+
+- [LIVE]
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -53,6 +55,9 @@ Install this project with: cd my-project npm install
 - LinkedIn: [Marie Grace Bahati](https://linkedin.com/in/marie-gr%C3%A2ce-bahati-546765224)
 👤 **Author2**
 - Github: [@tusinahmed] (https://github.com/tusinahmed)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE -->
+Live link:https://mariegrace31.github.io/portfolio_project/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
