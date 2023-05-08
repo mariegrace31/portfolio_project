@@ -490,7 +490,7 @@ input:hover {
 
   .animate:hover {
     transform: scale(1.1);
-    transition: transform 0.3s ease-out;
+    transition: transform 0.2s ease-out;
   }
 
   input::placeholder {
