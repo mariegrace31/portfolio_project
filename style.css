@@ -275,9 +275,10 @@ input:hover {
   .main {
     background: url(images/Header\ bg.svg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-color: #fff;
     border-bottom-left-radius: 150px;
-    width: 1440px;
+    margin-left: 0;
   }
 
   body {
