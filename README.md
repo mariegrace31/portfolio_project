@@ -10,6 +10,8 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
+
+- [LIVE]
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -54,6 +56,9 @@ Install this project with: cd my-project npm install
 Loom video:https://www.loom.com/share/6deb4db922e643fa9684b859c98a4a50
 👤 **Author2**
 - Github: [@tusinahmed] (https://github.com/tusinahmed)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE -->
+Live link:https://mariegrace31.github.io/portfolio_project/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
