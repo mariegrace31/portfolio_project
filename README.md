@@ -51,6 +51,7 @@ Install this project with: cd my-project npm install
 - GitHub: [@mariegrace31](https://github.com/mariegrace31)
 - Twitter: [@mariegracebmg](https://twitter.com/mariegracebmg)
 - LinkedIn: [Marie Grace Bahati](https://linkedin.com/in/marie-gr%C3%A2ce-bahati-546765224)
+Loom video:https://www.loom.com/share/6deb4db922e643fa9684b859c98a4a50
 👤 **Author2**
 - Github: [@tusinahmed] (https://github.com/tusinahmed)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
