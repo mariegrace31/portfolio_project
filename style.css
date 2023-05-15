@@ -16,11 +16,17 @@ nav {
   display: none;
 }
 
+body {
+  background-color: #f7f7f9;
+}
+
 .main {
   background: url(images/header-shapes\ mobile@2x.svg);
   display: flex;
   padding: 90px 18px;
   background-repeat: no-repeat;
+  background-color: #fff;
+  border-bottom-left-radius: 100px;
 }
 
 .logo {
@@ -88,6 +94,7 @@ h1 {
   border-radius: 16px;
   margin: 25px;
   align-items: center;
+  background-color: #fff;
 }
 
 .title {
@@ -150,6 +157,12 @@ h1 {
   display: flex;
 }
 
+.About {
+  background-color: #fff;
+  border-top-right-radius: 100px;
+  padding-bottom: 50px;
+}
+
 .js {
   display: flex;
   gap: 20px;
@@ -193,7 +206,7 @@ hr {
   background-color: #6070ff;
   background-position: right;
   border-top-left-radius: 55px;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 .contact-text {
@@ -269,19 +282,37 @@ input:hover {
 .nav-menu ul {
   display: flex;
   flex-direction: column;
+  padding: 30px;
+  list-style: none;
+  margin-top: 20px;
 }
 
 .nav-menu {
   background-color:#6070ff;
   opacity: 0.9;
-  height: 100vh;
+  height: 880px;
   position: absolute;
-  width: 100vh;
+  margin-top: -65px;
+  width: 100%;
 }
 
 .nav-menu ul li {
-  text-decoration: none;
+  margin: 15px;
+  font-size: 22px;
 }
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.fa-times {
+  color: #fff;
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+  }
 
 @media screen and (min-width: 768px) {
   * {
