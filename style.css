@@ -266,6 +266,23 @@ input:hover {
   border: 1px solid #253858;
 }
 
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-menu {
+  background-color:#6070ff;
+  opacity: 0.9;
+  height: 100vh;
+  position: absolute;
+  width: 100vh;
+}
+
+.nav-menu ul li {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   * {
     margin: 0;
