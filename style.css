@@ -355,6 +355,10 @@ input:hover {
   grid-area: 6px;
 }
 
+.modal.active {
+  display: flex;
+}
+
 @media screen and (min-width: 768px) {
   * {
     margin: 0;
