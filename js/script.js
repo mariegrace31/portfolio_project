@@ -18,7 +18,7 @@ closing.addEventListener('click', () => {
 // this funcition is for mobile functionality
 links.forEach((link) => {
   link.addEventListener('click', () => {
-  menu.classList.toggle('active');
-  body.classList.toggle('active');
+    menu.classList.toggle('active');
+    body.classList.toggle('active');
   });
 });
