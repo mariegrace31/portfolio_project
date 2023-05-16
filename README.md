@@ -58,6 +58,9 @@ Loom video:https://www.loom.com/share/6deb4db922e643fa9684b859c98a4a50
 
 👤 **Author2**
 - Github: [@tusinahmed] (https://github.com/tusinahmed)
+
+👤 **Author3**
+- Github: [@Mofuhidy] (https://github.com/Mofuhidy)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE -->
 Live link:https://mariegrace31.github.io/portfolio_project/
