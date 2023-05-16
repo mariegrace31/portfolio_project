@@ -99,8 +99,8 @@ function popUp() {
         </div>
       </div>
     `;
+        worksArr.push(popWindow);
     })
-    worksArr.push(popWindow);
 
     return worksArr;
 }
