@@ -14,6 +14,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
+  background-color: #fff;
 }
 
 .nav-links {
@@ -30,7 +31,7 @@ body {
   padding: 90px 18px;
   background-repeat: no-repeat;
   background-color: #fff;
-  border-bottom-left-radius: 90px;
+  border-bottom-left-radius: 70px;
   height: 810px;
 }
 
