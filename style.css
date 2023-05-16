@@ -58,6 +58,13 @@ h1 {
   padding: 15px;
 }
 
+.presentation3 {
+  color: #344563;
+  font-size: 15px;
+  margin: 9px;
+  padding: 15px;
+}
+
 .connect {
   color: #7f8cff;
   font-size: 16px;
@@ -97,12 +104,13 @@ h1 {
 .works2,
 .works3,
 .works4 {
-  padding: 25px 18px;
-  display: grid;
-  gap: 15px;
+  padding: 25px 17px;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 30px;
+  margin-left: 22px;
   align-items: center;
   background-color: #fff;
 }
@@ -290,6 +298,8 @@ input:hover {
   border: 1px solid #253858;
 }
 
+/*DOM*/
+
 .nav-menu ul {
   display: flex;
   flex-direction: column;
@@ -328,6 +338,21 @@ input:hover {
   float: right;
   margin-right: 40px;
   margin-top: 20px;
+}
+
+.btns {
+  display: flex;
+}
+
+#BTN {
+  width: 140px;
+  margin: 10px;
+  padding: 12px;
+}
+
+.canopy-nav {
+  display: flex;
+  grid-area: 6px;
 }
 
 @media screen and (min-width: 768px) {
