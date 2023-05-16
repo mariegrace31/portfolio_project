@@ -26,7 +26,8 @@ body {
   padding: 90px 18px;
   background-repeat: no-repeat;
   background-color: #fff;
-  border-bottom-left-radius: 100px;
+  border-bottom-left-radius: 90px;
+  height: 810px;
 }
 
 .logo {
@@ -83,6 +84,10 @@ h1 {
   color: #7f8cff;
 }
 
+.body {
+  margin-top: 100px;
+}
+
 .works1,
 .works2,
 .works3,
@@ -92,7 +97,7 @@ h1 {
   gap: 15px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin: 25px;
+  margin: 30px;
   align-items: center;
   background-color: #fff;
 }
@@ -160,7 +165,7 @@ h1 {
 .About {
   background-color: #fff;
   border-top-right-radius: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .js {
@@ -206,7 +211,8 @@ hr {
   background-color: #6070ff;
   background-position: right;
   border-top-left-radius: 55px;
-  margin-top: 100px;
+  height: 779px;
+  margin-top: -70px;
 }
 
 .contact-text {
@@ -290,7 +296,7 @@ input:hover {
 .nav-menu {
   background-color:#6070ff;
   opacity: 0.9;
-  height: 880px;
+  height: 890px;
   position: absolute;
   margin-top: -65px;
   width: 100%;
