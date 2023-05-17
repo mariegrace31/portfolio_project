@@ -340,19 +340,47 @@ input:hover {
   margin-top: 20px;
 }
 
-.btns {
+/*POPUP WINDOW*/
+
+.popup {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: absolute;
+  width: 343px;
+  height: 800px;
+  left: calc(50% - 340px/2);
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
+
+.canopy-nav {
+  display: flex;
+  gap: 152px;
 }
 
 #BTN {
   width: 140px;
   margin: 10px;
-  padding: 12px;
+  padding: 8px;
 }
 
-.canopy-nav {
+#close {
+  color: #505f79;
+}
+
+.btns {
   display: flex;
-  grid-area: 6px;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.error {
+  color: red;
 }
 
 @media screen and (min-width: 768px) {

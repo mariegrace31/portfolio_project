@@ -22,3 +22,12 @@ links.forEach((link) => {
     body.classList.toggle('active');
   });
 });
+
+//validation form
+
+const form = document.querySelector('.form');
+const email= document.getElementById('email');
+const errorMessage = document.querySelector('.error');
+form.addEventListener('submit', (e) =>{
+  
+})
