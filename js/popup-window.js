@@ -1,48 +1,48 @@
 const works = [{
-    title: "Tonic",
-    image: 'images/tonic project.png',
-    tags: ['CANOPY', 'Back End Dev', 2015],
-    description: `A daily selection of privately personalized reads; no accounts or
+  title: "Tonic",
+  image: 'images/tonic project.png',
+  tags: ['CANOPY', 'Back End Dev', 2015],
+  description: `A daily selection of privately personalized reads; no accounts or
           sign- ups required.`,
-    languages: ['HTML', 'CSS', 'Bootstrap'],
-    live: '#',
-    repo: '#'
+  languages: ['HTML', 'CSS', 'Bootstrap'],
+  live: '#',
+  repo: '#'
 }, {
-    title: "Tonic",
-    image: 'images/multipost project.png',
-    tags: ['CANOPY', 'Back End Dev', 2015],
-    description: `A daily selection of privately personalized reads; no accounts or
+  title: "Tonic",
+  image: 'images/multipost project.png',
+  tags: ['CANOPY', 'Back End Dev', 2015],
+  description: `A daily selection of privately personalized reads; no accounts or
           sign- ups required.`,
-    languages: ['HTML', 'CSS', 'Bootstrap'],
-    live: '#',
-    repo: '#'
+  languages: ['HTML', 'CSS', 'Bootstrap'],
+  live: '#',
+  repo: '#'
 }, {
-    title: "Tonic",
-    image: 'images/gym project.png',
-    tags: ['CANOPY', 'Back End Dev', 2015],
-    description: `A daily selection of privately personalized reads; no accounts or
+  title: "Tonic",
+  image: 'images/gym project.png',
+  tags: ['CANOPY', 'Back End Dev', 2015],
+  description: `A daily selection of privately personalized reads; no accounts or
           sign- ups required.`,
-    languages: ['HTML', 'CSS', 'Bootstrap'],
-    live: '#',
-    repo: '#'
+  languages: ['HTML', 'CSS', 'Bootstrap'],
+  live: '#',
+  repo: '#'
 },
 {
-    title: "Tonic",
-    image: 'images/printing project.png',
-    tags: ['CANOPY', 'Back End Dev', 2015],
-    description: `A daily selection of privately personalized reads; no accounts or
+  title: "Tonic",
+  image: 'images/printing project.png',
+  tags: ['CANOPY', 'Back End Dev', 2015],
+  description: `A daily selection of privately personalized reads; no accounts or
           sign- ups required.`,
-    languages: ['HTML', 'CSS', 'Bootstrap'],
-    live: '#',
-    repo: '#'
+  languages: ['HTML', 'CSS', 'Bootstrap'],
+  live: '#',
+  repo: '#'
 },]
 
 const worksSec = document.querySelector('.body');
 
 works.forEach((work, i) => {
-    const card = document.createElement('div');
-    card.classList.add(`works${i + 1}`, 'animate');
-    card.innerHTML = `
+  const card = document.createElement('div');
+  card.classList.add(`works${i + 1}`, 'animate');
+  card.innerHTML = `
       <img class="photo${i + 1}" src="${work.image}" />
       <div class="part${i + 1}">
         <h1 class="title">${work.title}</h1>
@@ -62,29 +62,30 @@ works.forEach((work, i) => {
         <button class="button showProject">See project</button>
       </div>
 `
-    worksSec.appendChild(card);
+  worksSec.appendChild(card);
 })
 
 // modal functionality
 function popUp() {
-    // define empty array to add the details to it
-    const worksArr = [];
+  // define empty array to add the details to it
+  const worksArr = [];
 
+  works.forEach((work, i) => {
     const popWindow = document.createElement('div');
+    // change this to works1 class to 'active' for pop up modal
     popWindow.classList.add('modal', 'works1');
-    works.forEach((work) => {
-        popWindow.innerHTML = `
+    popWindow.innerHTML = `
       <div class="canopy-nav">
         <h1 class="title">${work.title}</h1>
-        <i class="fa fa-times closeIcon"></i>
+        <i class="fa fa-times closeIcon" ></i>
       </div>
       <ul class="canopy">
           <li class="can"><b>${work.tags[0]}</b></li>
           <li class="dev"><b>${work.tags[1]}</b></li>
           <li class="dev"><b> ${work.tags[2]}</b></li>
       </ul>
-      <img class="photo1" src="${work.image}" />
-      <div class="part1">
+      <img class="photo${i}" src="${work.image}" />
+      <div class="part${i}">
         <p class="presentation3">
           ${work.description}
         </p>
@@ -99,39 +100,39 @@ function popUp() {
         </div>
       </div>
     `;
-        worksArr.push(popWindow);
-    })
+    worksArr.push(popWindow);
+  })
 
-    return worksArr;
+  return worksArr;
 }
 
 
 function forModal() {
-    // here we make selector all to return an array value so we can iterate through it
-    const showProBtn = document.querySelectorAll('.showProject');
+  // here we make selector all to return an array value so we can iterate through it
+  const showProBtn = document.querySelectorAll('.showProject');
 
-    // define a variable to have the window details
-    const popWindow = popUp();
-    // loop throgh the projects buttons
-    for (let i = 0; i < showProBtn.length; i += 1) {
-        // add the event to each see project button
-        showProBtn[i].addEventListener('click', () => {
-            console.log(popWindow[i])
-            // remove the default classes
-            popWindow[i].classList.add('active');
+  // define a variable to have the window details
+  const popWindow = popUp();
+  // loop throgh the projects buttons
+  for (let i = 0; i < showProBtn.length; i += 1) {
+    // add the event to each see project button
+    showProBtn[i].addEventListener('click', () => {
+      console.log(popWindow[i])
+      // remove the default classes
+      popWindow[i].classList.add('active');
 
-            // append the detail window to the work section
-            worksSec.appendChild(popWindow[i]);
+      // append the detail window to the work section
+      worksSec.appendChild(popWindow[i]);
 
-            const close = document.querySelectorAll('.closeIcon');
+      const close = document.querySelectorAll('.closeIcon');
 
-            close.forEach((btn) => {
-                btn.addEventListener('click', () => {
-                    btn.parentElement.parentElement.classList.remove('active');
-                });
-            });
+      close.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          btn.parentElement.parentElement.classList.remove('active');
         });
-    }
+      });
+    });
+  }
 }
 
 forModal()
