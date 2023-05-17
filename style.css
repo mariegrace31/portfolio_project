@@ -381,6 +381,7 @@ input:hover {
 
 .error {
   color: red;
+  font-size: 12px;
 }
 
 @media screen and (min-width: 768px) {
