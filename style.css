@@ -628,14 +628,81 @@ input:hover {
   }
 
   /*POPUP WINDOW*/
-.modal.active {
-  height: 496px;
-  display: flex;
-  flex-direction: column;
-  width: 1050px;
-  border-radius: 26px;
-  gap: 15px;
+  .modal.active {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 26px;
+    gap: 1px;
+    overflow-y: scroll;
   background-color: #fff;
-  padding: 0;
+  max-height: 100vh;
+  top: 1%;
+  left: 18%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  border: 1px solid #dfe1e6;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 16px;
+  }
+
+ .closeIcon {
+   color: #505f79;
+  }
+
+  .title1 {
+    font-size: 25px;
+  }
+
+  .languages1 ul {
+    display: inline-flex;
+    list-style: none;
+    color: #6070ff;
+    margin: 20px;
+  }
+
+  .languages1 ul li {
+    margin: 13px;
+    padding: 6px;
+  }
+
+  .canopy-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 80vh;
+  }
+
+  .canopy1 {
+    display: flex;
+    margin-right: auto;
+    padding-left: 0;
+  }
+
+  .can1 {
+    list-style: none;
+    color: #344563;
+  }
+  
+  .dev1 {
+    color: #c1c7d0;
+    margin-left: 28px;
+  }
+
+  .present {
+    display: flex;
+    margin-top: 80px;
+  }
+
+  .img-cont {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  #myimage {
+    width: 98%;
+    height: 60vh;
+    border-radius: 8px;
   }
 }

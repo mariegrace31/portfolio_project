@@ -52,7 +52,7 @@ works.forEach((work, i) => {
           <li class="dev"><b> ${work.tags[2]}</b></li>
         </ul>
         <p class="presentation3">
-          ${work.description}
+         ${work.description}
         </p>
         <div class="languages">
           <ul>
@@ -76,20 +76,23 @@ function popUp() {
     popWindow.classList.add('modal', 'active');
     popWindow.innerHTML = `
       <div class="canopy-nav">
-        <h1 class="title">${work.title}</h1>
+        <h1 class="title1">${work.title}</h1>
         <i class="fa fa-times closeIcon" ></i>
       </div>
-      <ul class="canopy">
-          <li class="can"><b>${work.tags[0]}</b></li>
-          <li class="dev"><b>${work.tags[1]}</b></li>
-          <li class="dev"><b> ${work.tags[2]}</b></li>
+      <ul class="canopy1">
+          <li class="can1"><b>${work.tags[0]}</b></li>
+          <li class="dev1"><b>${work.tags[1]}</b></li>
+          <li class="dev1"><b> ${work.tags[2]}</b></li>
       </ul>
-      <img class="photo${i}" src="${work.image}" />
+      <div class="img-cont">
+      <img id= "myimage" class="photo${i}" src="${work.image}" />
+      </div>
       <div class="part${i}">
+      <div class= present>
         <p class="presentation3">
           ${work.description}
         </p>
-        <div class="languages">
+        <div class="languages1">
           <ul>
            ${work.languages.map((item) => `<li class="lang">${item}</li>`).join('')}
           </ul>
@@ -98,6 +101,7 @@ function popUp() {
          <a href="${work.live}"><button class="button" id="BTN">See live<i class="fa fa-external-link"></i></button></a>
          <a href="${work.repo}"> <button class="button" id="BTN">See source <i class="fa fa-github"></i></button></a>
         </div>
+      </div>
       </div>
     `;
     worksArr.push(popWindow);
