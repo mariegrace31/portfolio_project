@@ -73,7 +73,7 @@ function popUp() {
   works.forEach((work, i) => {
     const popWindow = document.createElement('div');
     // change this to works1 class to 'active' for pop up modal
-    popWindow.classList.add('modal', 'works1');
+    popWindow.classList.add('modal', 'active');
     popWindow.innerHTML = `
       <div class="canopy-nav">
         <h1 class="title">${work.title}</h1>
