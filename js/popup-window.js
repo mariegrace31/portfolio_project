@@ -1,41 +1,41 @@
 const works = [{
-  title: "Tonic",
+  title: 'Tonic',
   image: 'images/tonic project.png',
   tags: ['CANOPY', 'Back End Dev', 2015],
   description: `A daily selection of privately personalized reads; no accounts or
           sign- ups required.`,
   languages: ['HTML', 'CSS', 'Bootstrap'],
   live: '#',
-  repo: '#'
+  repo: '#',
 }, {
-  title: "Tonic",
+  title: 'Tonic',
   image: 'images/multipost project.png',
   tags: ['CANOPY', 'Back End Dev', 2015],
   description: `A daily selection of privately personalized reads; no accounts or
           sign- ups required.`,
   languages: ['HTML', 'CSS', 'Bootstrap'],
   live: '#',
-  repo: '#'
+  repo: '#',
 }, {
-  title: "Tonic",
+  title: 'Tonic',
   image: 'images/gym project.png',
   tags: ['CANOPY', 'Back End Dev', 2015],
   description: `A daily selection of privately personalized reads; no accounts or
           sign- ups required.`,
   languages: ['HTML', 'CSS', 'Bootstrap'],
   live: '#',
-  repo: '#'
+  repo: '#',
 },
 {
-  title: "Tonic",
+  title: 'Tonic',
   image: 'images/printing project.png',
   tags: ['CANOPY', 'Back End Dev', 2015],
   description: `A daily selection of privately personalized reads; no accounts or
           sign- ups required.`,
   languages: ['HTML', 'CSS', 'Bootstrap'],
   live: '#',
-  repo: '#'
-},]
+  repo: '#',
+}];
 
 const worksSec = document.querySelector('.body');
 
@@ -61,9 +61,9 @@ works.forEach((work, i) => {
         </div>
         <button class="button showProject">See project</button>
       </div>
-`
+`;
   worksSec.appendChild(card);
-})
+});
 
 // modal functionality
 function popUp() {
@@ -107,11 +107,10 @@ function popUp() {
       </div></div>
     `;
     worksArr.push(popWindow);
-  })
+  });
 
   return worksArr;
 }
-
 
 function forModal() {
   // here we make selector all to return an array value so we can iterate through it
@@ -140,4 +139,4 @@ function forModal() {
   }
 }
 
-forModal()
+forModal();
