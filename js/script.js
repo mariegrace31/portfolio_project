@@ -1,4 +1,4 @@
-const hamburger = document.getElementById ('hamburger');
+const hamburger = document.getElementById('hamburger');
 const closing = document.getElementById('closingIcon');
 const links = document.querySelectorAll('.mobileLinks');
 const menu = document.querySelector('.nav-menu');
