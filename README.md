@@ -32,12 +32,6 @@ Vs Code using HTML and CSS.
 - [Feature_3]:Use images and backgrounds to enhance the look of the website.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-### Future Features <a name="future-features"></a>
-- [Feature_1]: Preserve data in the browser.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
