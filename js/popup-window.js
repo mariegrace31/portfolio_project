@@ -92,6 +92,7 @@ function popUp() {
         <p class="presentation4">
           ${work.description}
         </p>
+        <div class="lang-button">
         <div class="languages1">
           <ul>
            ${work.languages.map((item) => `<li class="lang">${item}</li>`).join('')}
@@ -100,6 +101,7 @@ function popUp() {
         <div class="btns">
          <a href="${work.live}"><button class="button" id="BTN">See live<i class="fa fa-external-link"></i></button></a>
          <a href="${work.repo}"> <button class="button" id="BTN">See source <i class="fa fa-github"></i></button></a>
+        </div>
         </div>
       </div>
       </div></div>

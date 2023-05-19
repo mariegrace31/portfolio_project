@@ -342,37 +342,25 @@ input:hover {
 
 /*POPUP WINDOW*/
 
-.popup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  position: fixed;
-  width: 343px;
-  height: 800px;
-  left: calc(50% - 340px/2);
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
-  border-radius: 16px;
-}
-
 .canopy-nav {
   display: flex;
   gap: 152px;
 }
 
 #BTN {
-  width: 140px;
-  margin: 10px;
-  padding: 8px;
+  width: 125px;
+  margin: 12px 11px;
+  padding: 4px;
+  font-size: 15px;
 }
 
-#close {
+.closeIcon {
   color: #505f79;
 }
 
 .btns {
   display: flex;
+  margin-left: -20px;
 }
 
 .modal.active {
@@ -380,14 +368,67 @@ input:hover {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  position: absolute;
-  z-index: 2;
-  width: 343px;
-  height: 800px;
-  left: calc(50% - 340px/2);
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  width: 100%;
+  background-color: #ffffff41;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  backdrop-filter: blur(4px);
+  padding: 5% 9%;
+}
+
+.modal-cont {
+  width: 100%;
+  padding: 2% 8%;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #dfe1e6;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
   border-radius: 16px;
+  max-height: 100vh;
+}
+
+.title1 {
+  font-size: 25px;
+}
+
+.languages1 ul {
+  display: inline-flex;
+  list-style: none;
+  color: #6070ff;
+  margin: 5px -7px;
+  font-size: 13px;
+}
+
+.languages1 ul li {
+  margin: 7px;
+  padding: 7px;
+}
+
+.canopy-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 24vh;
+}
+
+.canopy1 {
+  display: flex;
+  padding-left: 5px;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.can1 {
+  list-style: none;
+  color: #344563;
+}
+
+.dev1 {
+  color: #c1c7d0;
+  margin-left: 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -629,39 +670,16 @@ input:hover {
 
   /*POPUP WINDOW*/
   .modal.active {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    gap: 1px;
-    overflow-y: scroll;
-    background-color: #ffffff41;
     height: 100vh;
+    padding: 5% 9%;
     top: 0;
-    left: 0;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
-    backdrop-filter: blur(10px);
-    padding: 5% 10%;
   }
 
   .modal-cont {
-    width: 100%;
-    padding: 5% 5%;
-    border-radius: 10px;
-    background-color: white;
-    border: 1px solid #dfe1e6;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
-    border-radius: 16px;
+    width: 80%;
+    padding: 2% 2%;
     max-height: 100vh;
-  }
-
-  .closeIcon {
-    color: #505f79;
-  }
-
-  .title1 {
-    font-size: 25px;
   }
 
   .languages1 ul {
@@ -669,6 +687,7 @@ input:hover {
     list-style: none;
     color: #6070ff;
     margin: 20px;
+    font-size: 18px;
   }
 
   .languages1 ul li {
@@ -700,7 +719,7 @@ input:hover {
 
   .present {
     display: flex;
-    margin-top: 95px;
+    margin-top: 60px;
   }
 
   .img-cont {
@@ -716,6 +735,13 @@ input:hover {
   }
 
   .presentation4 {
-    font-size: 13px;
+    font-size: 22px;
+    margin-top: 35px;
+  }
+
+  .lang-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
   }
 }
