@@ -44,7 +44,8 @@ body {
   color: #6070ff;
 }
 
-h1 {
+h1,
+h2 {
   color: #172b4d;
   font-size: 35px;
   margin: 9px;
@@ -53,15 +54,15 @@ h1 {
 .presentation,
 .presentation2 {
   color: #344563;
-  font-size: 25px;
-  margin: 9px;
-  padding: 15px;
+  font-size: 24px;
+  margin-left: 0;
+  padding: 12px;
 }
 
 .presentation3 {
   color: #344563;
   font-size: 15px;
-  margin: 9px;
+  margin-left: -10px;
   padding: 15px;
 }
 
@@ -159,7 +160,8 @@ h1 {
   border-radius: 8px;
 }
 
-.button {
+.button,
+.button-source {
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 15px;
@@ -340,36 +342,7 @@ input:hover {
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
-/*POPUP WINDOW*/
-
-.popup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  position: absolute;
-  width: 343px;
-  height: 800px;
-  left: calc(50% - 340px/2);
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
-  border-radius: 16px;
-}
-
-.canopy-nav {
-  display: flex;
-  gap: 152px;
-}
-
-#BTN {
-  width: 140px;
-  margin: 10px;
-  padding: 8px;
-}
-=======
 /* POPUP WINDOW */
->>>>>>> 509d0b179c40e32cec7c5fac09cfcb6add6aa719
 
 #close {
   color: #505f79;
@@ -377,8 +350,6 @@ input:hover {
 
 .btns {
   display: flex;
-<<<<<<< HEAD
-=======
   justify-content: space-between;
   gap: 24vh;
 }
@@ -401,18 +372,10 @@ input:hover {
 
 .modal {
   display: none;
->>>>>>> 509d0b179c40e32cec7c5fac09cfcb6add6aa719
 }
 
 .modal.active {
   display: flex;
-<<<<<<< HEAD
-}
-
-.error {
-  color: red;
-  font-size: 13px;
-=======
   flex-direction: column;
   align-items: center;
   width: 100%;
@@ -466,10 +429,20 @@ input:hover {
   color: #344563;
 }
 
+.button-source {
+  position: absolute;
+  right: 50px;
+}
+
+.canopy-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20vh;
+}
+
 .dev1 {
   color: #c1c7d0;
   margin-left: 8px;
->>>>>>> 509d0b179c40e32cec7c5fac09cfcb6add6aa719
 }
 
 @media screen and (min-width: 768px) {
@@ -806,7 +779,7 @@ input:hover {
   }
 
   .presentation4 {
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 50px;
   }
 
@@ -818,12 +791,17 @@ input:hover {
 
   #BTN {
     width: 127px;
-    margin: 8px 12px;
+    margin:12px 8px;
     padding: 5px;
     font-size: 16px;
   }
 
+  .button-source {
+    position: absolute;
+    right: 350px;
+  }
+
   .btns {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 }
