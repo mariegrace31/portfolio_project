@@ -85,9 +85,9 @@ function popUp() {
           <li class="dev1"><b> ${work.tags[2]}</b></li>
       </ul>
       <div class="img-cont">
-      <img id= "myimage" class="photo${i}" src="${work.image}" />
+      <img id= "myimage" class="photo${i + 1}" src="${work.image}" />
       </div>
-      <div class="part${i}">
+      <div class="part${i + 1}">
       <div class= present>
         <p class="presentation4">
           ${work.description}
@@ -123,7 +123,6 @@ function forModal() {
   for (let i = 0; i < showProBtn.length; i += 1) {
     // add the event to each see project button
     showProBtn[i].addEventListener('click', () => {
-      console.log(popWindow[i])
       // remove the default classes
       popWindow[i].classList.add('active');
 
