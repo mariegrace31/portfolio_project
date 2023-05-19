@@ -476,7 +476,6 @@ input:hover {
   }
 
   h2 {
-    font-size: 40px;
     color: #172b4d;
     font-size: 35px;
     margin: 9px;
@@ -538,6 +537,8 @@ input:hover {
   .button {
     margin-top: 15px;
     margin-left: 12px;
+    padding: 13px;
+    width: 171px;
   }
 
   .works1,
@@ -568,11 +569,6 @@ input:hover {
   .part3,
   .part4 {
     margin-top: -100px;
-  }
-
-  .button {
-    padding: 13px;
-    width: 171px;
   }
 
   .languages ul {
