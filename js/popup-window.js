@@ -100,7 +100,7 @@ function popUp() {
         </div>
         <div class="btns">
          <a href="${work.live}"><button class="button" id="BTN">See live<i class="fa fa-external-link"></i></button></a>
-         <a href="${work.repo}"> <button class="button" id="BTN">See source <i class="fa fa-github"></i></button></a>
+         <a href="${work.repo}"> <button class="button-source" id="BTN">See source <i class="fa fa-github"></i></button></a>
         </div>
         </div>
       </div>
