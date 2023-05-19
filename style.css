@@ -462,6 +462,7 @@ input:hover {
     display: flex;
     list-style: none;
     gap: 35px;
+    margin-right: -50px;
   }
 
   .nav-links ul li a {
@@ -474,8 +475,11 @@ input:hover {
     font-size: 17px;
   }
 
-  h1 {
+  h2 {
     font-size: 40px;
+    color: #172b4d;
+    font-size: 35px;
+    margin: 9px;
   }
 
   .fa-bars {
@@ -506,16 +510,34 @@ input:hover {
   .connect {
     font-size: 16px;
     padding-left: 0;
+    margin-top: -5px;
   }
 
   .icons ul li a {
     font-size: 20px;
   }
 
+  .list {
+    font-size: 18px;
+  }
+
   .icons {
     margin-left: 0;
     margin-top: -19px;
     padding: 12px;
+  }
+
+  .canopy {
+    margin-left: 12px;
+  }
+
+  .presentation3 {
+    margin-left: 0;
+  }
+
+  .button {
+    margin-top: 15px;
+    margin-left: 12px;
   }
 
   .works1,
@@ -553,6 +575,14 @@ input:hover {
     width: 171px;
   }
 
+  .languages ul {
+    margin-left: 3px;
+  }
+
+  .languages ul li {
+    margin: 10px;
+  }
+
   .button:hover {
     background-color: #6070ff;
   }
@@ -575,26 +605,26 @@ input:hover {
     border-top-right-radius: 100px;
     width: 100%;
     display: flex;
-    gap: 10px;
+    gap: 40px;
     padding: 0 90px;
     height: 700px;
   }
 
   .content2 {
-    width: 50%;
-    margin-left: 100px;
-    line-height: 24px;
+    width: 60%;
+    margin-left: 0;
+    line-height: 22px;
   }
 
   .langs {
-    width: 550px;
-    margin-top: -12px;
-    margin-left: 0;
-    padding: 80px 70px;
+    width: 40%;
+    margin-top: -16px;
+    margin-right: -50px;
+    padding: 80px 40px;
   }
 
   .presentation2 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .lang-nav ul li {
@@ -637,7 +667,7 @@ input:hover {
   }
 
   .btn {
-    margin-left: 150px;
+    margin-left: 130px;
     background-color: #fff;
   }
 
