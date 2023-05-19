@@ -352,6 +352,7 @@ input:hover {
   display: flex;
   justify-content: space-between;
   gap: 24vh;
+  margin-left: -20px;
 }
 
 #BTN {
@@ -363,11 +364,6 @@ input:hover {
 
 .closeIcon {
   color: #505f79;
-}
-
-.btns {
-  display: flex;
-  margin-left: -20px;
 }
 
 .modal {
@@ -506,7 +502,7 @@ input:hover {
   .presentation2 {
     font-size: 18px;
     padding-left: 0;
-    margin-top: 0;
+    margin-left: 10px;
     margin-bottom: 0;
   }
 
@@ -791,7 +787,7 @@ input:hover {
 
   #BTN {
     width: 127px;
-    margin:12px 8px;
+    margin: 12px 8px;
     padding: 5px;
     font-size: 16px;
   }
