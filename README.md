@@ -35,6 +35,7 @@ Vs Code using HTML and CSS.
 
 ### Future Features <a name="future-features"></a>
 - [Feature_1]: Preserve data in the browser.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
