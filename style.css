@@ -635,16 +635,17 @@ input:hover {
     border-radius: 26px;
     gap: 1px;
     overflow-y: scroll;
-  background-color: #fff;
-  max-height: 100vh;
-  top: 1%;
-  left: 18%;
-  position: fixed;
-  z-index: 1;
-  overflow-x: hidden;
-  border: 1px solid #dfe1e6;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
-  border-radius: 16px;
+    background-color: #fff;
+    max-height: 100vh;
+    top: 1%;
+    left: 25%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    border: 1px solid #dfe1e6;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
   }
 
  .closeIcon {
@@ -691,7 +692,7 @@ input:hover {
 
   .present {
     display: flex;
-    margin-top: 80px;
+    margin-top: 95px;
   }
 
   .img-cont {
@@ -704,5 +705,9 @@ input:hover {
     width: 98%;
     height: 60vh;
     border-radius: 8px;
+  }
+
+  .presentation4 {
+    font-size: 13px;
   }
 }

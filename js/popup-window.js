@@ -89,7 +89,7 @@ function popUp() {
       </div>
       <div class="part${i}">
       <div class= present>
-        <p class="presentation3">
+        <p class="presentation4">
           ${work.description}
         </p>
         <div class="languages1">
