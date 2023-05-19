@@ -13,7 +13,8 @@ function savedData() {
 
 form.addEventListener('submit', savedData);
 
-// get the item from the local storage
+// get item from the local storage //
+
 window.addEventListener('load', () => {
   const dataStorage = JSON.parse(localStorage.getItem('formData'));
   if (dataStorage) {
