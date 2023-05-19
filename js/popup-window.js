@@ -74,7 +74,7 @@ function popUp() {
     const popWindow = document.createElement('div');
     // change this to works1 class to 'active' for pop up modal
     popWindow.classList.add('modal', 'active');
-    popWindow.innerHTML = `
+    popWindow.innerHTML = `<div class="modal-cont">
       <div class="canopy-nav">
         <h1 class="title1">${work.title}</h1>
         <i class="fa fa-times closeIcon" ></i>
@@ -102,7 +102,7 @@ function popUp() {
          <a href="${work.repo}"> <button class="button" id="BTN">See source <i class="fa fa-github"></i></button></a>
         </div>
       </div>
-      </div>
+      </div></div>
     `;
     worksArr.push(popWindow);
   })
@@ -132,7 +132,7 @@ function forModal() {
 
       close.forEach((btn) => {
         btn.addEventListener('click', () => {
-          btn.parentElement.parentElement.classList.remove('active');
+          btn.parentElement.parentElement.parentElement.classList.remove('active');
         });
       });
     });

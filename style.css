@@ -381,7 +381,7 @@ input:hover {
   align-items: center;
   padding: 16px;
   position: absolute;
-  z-index: 300px;
+  z-index: 2;
   width: 343px;
   height: 800px;
   left: calc(50% - 340px/2);
@@ -495,7 +495,7 @@ input:hover {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-  } 
+  }
 
   .body {
     margin: 60px;
@@ -631,25 +631,33 @@ input:hover {
   .modal.active {
     display: flex;
     flex-direction: column;
-    width: 800px;
-    border-radius: 26px;
+    width: 100%;
     gap: 1px;
     overflow-y: scroll;
-    background-color: #fff;
-    max-height: 100vh;
-    top: 1%;
-    left: 25%;
+    background-color: #ffffff41;
+    height: 100vh;
+    top: 0;
+    left: 0;
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
+    backdrop-filter: blur(10px);
+    padding: 5% 10%;
+  }
+
+  .modal-cont {
+    width: 100%;
+    padding: 5% 5%;
+    border-radius: 10px;
+    background-color: white;
     border: 1px solid #dfe1e6;
     box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
-    backdrop-filter: blur(10px);
+    max-height: 100vh;
   }
 
- .closeIcon {
-   color: #505f79;
+  .closeIcon {
+    color: #505f79;
   }
 
   .title1 {
@@ -684,7 +692,7 @@ input:hover {
     list-style: none;
     color: #344563;
   }
-  
+
   .dev1 {
     color: #c1c7d0;
     margin-left: 28px;
