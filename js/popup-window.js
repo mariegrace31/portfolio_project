@@ -1,12 +1,11 @@
 const works = [{
-  title: 'Tonic',
-  image: 'images/tonic project.png',
-  tags: ['CANOPY', 'Back End Dev', 2015],
-  description: `A daily selection of privately personalized reads; no accounts or
-          sign- ups required.`,
-  languages: ['HTML', 'CSS', 'Bootstrap'],
-  live: '#',
-  repo: '#',
+  title: 'To Do List',
+  image: 'images/to do list.png',
+  tags: ['PROJECT', 'MICROVERSE', 2023],
+  description: `This website allows people to add tasks and remove the completed ones.`,
+  languages: ['HTML', 'CSS', 'JavaScript'],
+  live: 'https://mariegrace31.github.io/To-do-List/dist/',
+  repo: 'https://github.com/mariegrace31/To-do-List',
 }, {
   title: 'Tonic',
   image: 'images/multipost project.png',
