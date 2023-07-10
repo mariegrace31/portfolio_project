@@ -1,20 +1,20 @@
 const works = [{
   title: 'To Do List',
   image: 'images/to do list.png',
-  tags: ['PROJECT', 'MICROVERSE', 2023],
+  tags: ['Web development', 'Front End Dev', 2023],
   description: `This website allows people to add tasks and remove the completed ones.`,
   languages: ['HTML', 'CSS', 'JavaScript'],
   live: 'https://mariegrace31.github.io/To-do-List/dist/',
   repo: 'https://github.com/mariegrace31/To-do-List',
 }, {
-  title: 'Tonic',
-  image: 'images/multipost project.png',
-  tags: ['CANOPY', 'Back End Dev', 2015],
-  description: `A daily selection of privately personalized reads; no accounts or
-          sign- ups required.`,
-  languages: ['HTML', 'CSS', 'Bootstrap'],
-  live: '#',
-  repo: '#',
+  title: 'Meal Gallery',
+  image: 'images/mealGallery screeshot.png',
+  tags: ['WEBPACK', 'Front End Dev', 2023],
+  description: `Meal Gallery is an innovative app that allows you to discover a variety of delicious meals
+   from around the world. Whether you're an experienced chef or simply a food enthusiast, this app is perfect for you.`,
+  languages: ['HTML', 'CSS', 'JavaScript'],
+  live: 'https://mariegrace31.github.io/Meal_Gallery/dist/',
+  repo: 'https://github.com/mariegrace31/Meal_Gallery',
 }, {
   title: 'Tonic',
   image: 'images/gym project.png',
@@ -73,7 +73,8 @@ function popUp() {
     const popWindow = document.createElement('div');
     // change this to works1 class to 'active' for pop up modal
     popWindow.classList.add('modal', 'active');
-    popWindow.innerHTML = `<div class="modal-cont">
+    popWindow.innerHTML = 
+    `<div class="modal-cont">
       <div class="canopy-nav">
         <h1 class="title1">${work.title}</h1>
         <i class="fa fa-times closeIcon" ></i>
