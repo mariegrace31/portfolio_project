@@ -118,7 +118,7 @@ h2 {
 
 .title {
   color: #172b4d;
-  font-size: 35px;
+  font-size: 24px;
 }
 
 .photo1,
@@ -131,7 +131,8 @@ h2 {
 .canopy {
   display: flex;
   justify-content: flex-start;
-  gap: 25px;
+  gap: 23px;
+  font-size: 13px;
 }
 
 .can {
@@ -165,7 +166,7 @@ h2 {
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 15px;
-  width: 180px;
+  width: 160px;
   text-align: center;
   color: #396df2;
   font-size: 18px;
@@ -462,8 +463,8 @@ input:hover {
 
   nav {
     display: flex;
-    justify-content: space-between;
-    padding: 20px 190px 50px 90px;
+    justify-content: space-around;
+    padding: 15px;
     background-color: #fff;
   }
 
@@ -481,7 +482,12 @@ input:hover {
   .nav-links ul li a {
     color: #344563;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
+  }
+
+  .nav-links ul li a:hover {
+    color: #6070ff;
+    text-decoration: underline;
   }
 
   .logo {
@@ -794,7 +800,7 @@ input:hover {
 
   .button-source {
     position: absolute;
-    right: 350px;
+    right: 300px;
   }
 
   .btns {
