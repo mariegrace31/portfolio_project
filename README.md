@@ -39,11 +39,11 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: to dowload it or clone it to your machine.
+In order to run this project you need: to download it or clone it to your machine.
 ### Setup
 Clone this repository to your desired folder: https://github.com/mariegrace31/portfolio_project.git
 ### Install
-Install this project with: cd my-project npm install
+Install this project with cd my-project npm install
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -64,7 +64,7 @@ Loom video:https://www.loom.com/share/6deb4db922e643fa9684b859c98a4a50
 - Github: [@Mofuhidy] (https://github.com/Mofuhidy)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE -->
-Live link:https://mariegrace31.github.io/portfolio_project/
+Live link: https://mariegrace31.github.io/portfolio_project/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
