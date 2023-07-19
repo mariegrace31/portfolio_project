@@ -3,7 +3,8 @@
 <div align="center">
 
 #  **Portfolio**
-This portfolio project showcases my skills and expertise in software development. It includes a collection of my best projects, demonstrating proficiency in various programming languages, frameworks, and technologies. Explore the repository to witness my growth as a developer and discover the innovative projects I've created.
+<p>This portfolio project showcases my skills and expertise in software development. It includes a collection of my best projects, demonstrating proficiency in various programming languages, frameworks, and technologies. Explore the repository to witness my growth as a developer and discover the innovative projects I've created.</p>
+
 ---
   <br/>
   <br/>
