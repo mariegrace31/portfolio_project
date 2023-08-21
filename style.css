@@ -485,11 +485,6 @@ input:hover {
     font-size: 18px;
   }
 
-  .nav-links ul li a:hover {
-    color: #6070ff;
-    text-decoration: underline;
-  }
-
   .logo {
     font-size: 17px;
   }
@@ -533,6 +528,11 @@ input:hover {
 
   .icons ul li a {
     font-size: 20px;
+  }
+
+  .nav-links ul li a:hover {
+    color: #6070ff;
+    text-decoration: underline;
   }
 
   .list {

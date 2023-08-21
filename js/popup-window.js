@@ -71,7 +71,7 @@ function popUp() {
     const popWindow = document.createElement('div');
     // change this to works1 class to 'active' for pop up modal
     popWindow.classList.add('modal', 'active');
-    popWindow.innerHTML = 
+    popWindow.innerHTML =
     `<div class="modal-cont">
       <div class="canopy-nav">
         <h1 class="title1">${work.title}</h1>
