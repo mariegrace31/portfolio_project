@@ -16,24 +16,22 @@ const works = [{
   live: 'https://mariegrace31.github.io/Meal_Gallery/dist/',
   repo: 'https://github.com/mariegrace31/Meal_Gallery',
 }, {
-  title: 'Tonic',
-  image: 'images/gym project.png',
-  tags: ['CANOPY', 'Back End Dev', 2015],
-  description: `A daily selection of privately personalized reads; no accounts or
-          sign- ups required.`,
-  languages: ['HTML', 'CSS', 'Bootstrap'],
-  live: '#',
-  repo: '#',
+  title: 'Bookstore',
+  image: 'images/bookstore.PNG',
+  tags: ['Gitflow', 'Front End Dev', 2023],
+  description: `The Bookstore is a website that displays a list of books, adds a book and, removes a selected book.`,
+  languages: ['React', 'JavaScript', 'CSS'],
+  live: 'https://mg-bookstore.netlify.app/',
+  repo: 'https://github.com/mariegrace31/bookstore.git',
 },
 {
-  title: 'Tonic',
-  image: 'images/printing project.png',
-  tags: ['CANOPY', 'Back End Dev', 2015],
-  description: `A daily selection of privately personalized reads; no accounts or
-          sign- ups required.`,
-  languages: ['HTML', 'CSS', 'Bootstrap'],
-  live: '#',
-  repo: '#',
+  title: 'Air-pollution',
+  image: 'images/Capture1.JPG',
+  tags: ['CAPSTONE', 'Front End Dev', 2023],
+  description: `This capstone is about a mobile web application to check a list of metrics(in this case,air pollution data)`,
+  languages: ['React', 'JavaScript', 'SASS'],
+  live: 'https://airpollution1.netlify.app/',
+  repo: 'https://github.com/mariegrace31/react_capstone.git',
 }];
 
 const worksSec = document.querySelector('.body');
@@ -73,7 +71,7 @@ function popUp() {
     const popWindow = document.createElement('div');
     // change this to works1 class to 'active' for pop up modal
     popWindow.classList.add('modal', 'active');
-    popWindow.innerHTML = 
+    popWindow.innerHTML =
     `<div class="modal-cont">
       <div class="canopy-nav">
         <h1 class="title1">${work.title}</h1>
