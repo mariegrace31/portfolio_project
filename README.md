@@ -56,7 +56,7 @@
 <!-- LIVE DEMO -->
 ## <b>Live Demo 🚀</b><a name="live-demo"></a>
 
-This project is hosted on GitHub pages, so if you want to check it online, please click 😊 [here](https://mariegrace31.github.io/portfolio_project/).
+This project is hosted on GitHub pages, so if you want to check it online, please click [here](https://mariegrace31.github.io/portfolio_project/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
